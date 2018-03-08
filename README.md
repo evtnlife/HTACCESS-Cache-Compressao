@@ -5,3 +5,7 @@ No servidor web que estiver rodando o site, é necessário garantir que alguns m
 - mod_headers
 - mod_deflate
 - mod_expires
+- mod_rewrite
+
+
+Lembre-se sempre de fazer um Backup de seu .htaccess atual antes de aplicar estes códigos
