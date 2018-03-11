@@ -22,7 +22,7 @@
 </IfModule>
 
 # ##### Controle de expiração de cache e cabeçalhos para algumas extensões de arquivo #############
-<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|webp|js|css|swf|x-html|css|xml|js|woff|woff2|ttf|svg|eot)(\.gz)?$">
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|webp|js|css|swf|x-html|xml|woff|woff2|ttf|svg|eot)(\.gz)?$">
     <IfModule mod_expires.c>
         AddType application/font-woff2 .woff2
         ExpiresActive On
